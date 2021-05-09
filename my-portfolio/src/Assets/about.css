@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.About h2{
+  /* float:left; */
+  padding-left: 100px;
+  font-family:'Montserrat', sans-serif;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+#profile img{
+  max-width: 350px;
+  min-width: 100px;
+}

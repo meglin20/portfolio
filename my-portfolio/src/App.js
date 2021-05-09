@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Work from './pages/Work';
 import About from './pages/About';
 import Nacro from './pages/Nacro';
+import ZUZ from './pages/ZUZ';
 import { BrowserRouter as Router, Route, Switch, Link, Redirect} from "react-router-dom";
 
 
@@ -20,6 +21,7 @@ class App extends Component{
             <Route exact path="/work" component={Work} />
             <Route exact path="/about" component={About} />
             <Route exact path="/nacro" component={Nacro} />
+            <Route exact path="/zuz" component={ZUZ} />
           </Switch>
         </Router>
       </div>

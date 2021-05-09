@@ -13,7 +13,7 @@ class ItemCard extends Component {
     return (
     <div>
       <Link to={"/"+this.props.testvalue}>
-        <Card className="bg-dark text-white">
+        <Card className="bg-dark text-white border-0">
         <Card.Img src={this.props.image} alt="Card image" />
         <Card.ImgOverlay>
           <Card.Title>{this.props.title}</Card.Title>

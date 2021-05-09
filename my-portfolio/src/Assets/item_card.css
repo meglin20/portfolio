@@ -1,5 +1,12 @@
 .card-style {
-  max-width: 30%;
+  padding: 0;
+  margin: 20px;
+  border: none;
+}
+.card {
+  margin: 50px;
+  border: none;
+  padding: 0;
 }
 
 img{

@@ -3,9 +3,11 @@ import React, {Component } from "react";
 import Navbar from '../components/Navbar'
 import '../Assets/home.css';
 import ItemCard from '../components/ItemCard'
-import { BrowserRouter as Router, Route, Switch, Link, Redirect} from "react-router-dom";
+import Footer from '../components/Footer'
 import nacro from '../Assets/nacro.png';
-import Project from '../pages/Project';
+import zuz from '../Assets/zuz.png';
+import 'bootstrap/dist/css/bootstrap.css';
+import { Container, Row, Col } from 'reactstrap';
 
 
 class Home extends Component{
@@ -15,14 +17,25 @@ class Home extends Component{
         <Navbar/>
         <br></br>
         <div id="intro">
-        <h1>Hi I'm Megan </h1>
-        <h3>I major in Information Systems and Human-Computer Interaction at Carneige Mellon University</h3>
+          <h2>Hi I'm Megan </h2>
+          <div id="description">
+            <h4>I major in Information Systems and Human-Computer Interaction at Carneige Mellon University</h4 >
+          </div>
         </div>
         <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <ItemCard image={nacro} title="NACRO" testvalue="nacro"/>
+        <Container>
+              <Col sm="1" md="1" lg="1">
+                <ItemCard image={nacro} title="NACRO" testvalue="nacro"/>
+              </Col>
+              <Col sm="1" md="1" lg="1">
+                <ItemCard image={zuz} title="ZUZ" testvalue="zuz"/>
+              </Col>
+        </Container>
+        <div class="projects">
+          <ItemCard image={nacro} title="NACRO" testvalue="nacro"/>
+          <ItemCard image={zuz} title="ZUZ" testvalue="zuz"/>
+        </div>
+        <Footer/>
       </div>
   );
   }
