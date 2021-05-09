@@ -16,6 +16,7 @@ class Home extends Component{
       <div className="Home">
         <Navbar/>
         <br></br>
+        {/* Brief introduction about myself */}
         <div id="intro">
           <h2>Hi I'm Megan </h2>
           <div id="description">
@@ -23,6 +24,7 @@ class Home extends Component{
           </div>
         </div>
         <br></br>
+        {/* Shows two projects */}
         <Container>
               <Col sm="1" md="1" lg="1">
                 <ItemCard image={nacro} title="NACRO" testvalue="nacro"/>

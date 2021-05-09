@@ -17,6 +17,7 @@ class About extends Component{
         <Navbar/>
         <h2>A little about myself </h2>
         <div class="content"> 
+        {/* Two column view, showing a picture of me and a description of me */}
           <Container>
             <Row>
               <Col sm="1" md="5" lg="5">

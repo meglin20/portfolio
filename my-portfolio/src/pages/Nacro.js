@@ -23,11 +23,13 @@ class Nacro extends Component{
         <Container class="content">
           <Row>
             <Col sm="1" md="6" lg="6">
+            {/* Overview about the project */}
             <h3>Overview</h3>
               <p>This is a project for my 67-240 Mobile Design and Development Course at Carnegie Mellon University. I worked with two other teammates to redesign and implement the website of our client, NACRO. NACRO is an organization that developed to support corporate relations officers in both academia and industry.
   We worked closely with our client to understand their pain points and to create a new design that would resolve these usability issues and tailor the experience towards their target audience.</p>
             </Col>
             <Col id="description" sm="1" md="6" lg="6">
+              {/* Shows my role and the date of the project */}
               <h3>Role</h3>
               <p>UI/UX Designer and Front-end Developer</p>
               <h3>Date</h3>
@@ -36,6 +38,7 @@ class Nacro extends Component{
           </Row>
         </Container>
         <div id="reflection">
+          {/* Shows reflection of the project */}
             <h3>What I learned...</h3>
             <div id="list">
               <li>Collaboration using GitHub</li>

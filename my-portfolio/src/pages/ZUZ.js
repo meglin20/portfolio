@@ -23,9 +23,11 @@ class ZUZ extends Component{
         <Container class="content">
           <Row>
             <Col sm="1" md="6" lg="6">
+            {/* Overview about the project */}
             <h3>Overview</h3>
               <p>ZUZ is a transparent payment and lending platform creates capital and generates liquidity in a community. It harnesses local networks and reputation so people can help each other and generate wealth at the same time, which reduces systemic bias against all small businesses.I am one of the three UI/UX designers in the team. We work with the front-end team and a graphic, logo designer to develop a prototype of the app. We aim to prototype a mobile app that serves both the merchants and customers and provides a simple way of conducting transactions with just a few clicks.</p>
             </Col>
+            {/* Shows my role and the date of the project */}
             <Col id="description" sm="1" md="6" lg="6">
               <h3>Role</h3>
               <p>UI/UX Designer</p>
